@@ -6,5 +6,6 @@
 import { definePageMeta } from "#imports";
 definePageMeta({
   layout: "custom",
+  middleware: "auth",
 });
 </script>

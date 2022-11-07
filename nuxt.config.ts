@@ -12,4 +12,5 @@ export default defineNuxtConfig({
     // ...
     "@pinia/nuxt",
   ],
+  plugins: [{ mode: "client", src: "./plugins/apollo-setup.ts" }],
 });
